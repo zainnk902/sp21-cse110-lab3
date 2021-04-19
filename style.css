@@ -1,0 +1,62 @@
+/*My CSS stlye sheet*/
+h1{
+    color:#008000;
+    background-color:black;
+    position: relative;
+    padding-left: 600px;
+    display: block;
+    
+}
+h3{
+    text-decoration:underline;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(78, 158, 134);
+    color: blue;
+    position:sticky;
+    display: inline-block;
+    
+}
+ul{
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+    padding-left: 23px;
+    width: 420px;
+    height:auto;
+    margin:18px 18px 18px 18px;
+    display:grid;
+}/*
+footer{
+    display: flex;
+}
+*/
+
+ol{
+    padding: 10px 10px 10px 50px;
+    max-width: max-content;
+    min-width: min-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+@media(min-width: 60px){
+    p{
+        font-size: .45cm
+    }
+
+}
+/*
+p{
+    grid-column: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+*/

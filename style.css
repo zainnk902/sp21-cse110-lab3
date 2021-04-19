@@ -14,7 +14,6 @@ h3{
     display: flex;
 }
 body{
-    font-family: 'Noto Sans JP', sans-serif;
     background-color: rgb(78, 158, 134);
     color: blue;
     position:sticky;
@@ -36,7 +35,9 @@ footer{
     display: flex;
 }
 */
-
+.cc {
+    color:rgb(83, 69, 2);
+  }
 ol{
     padding: 10px 10px 10px 50px;
     max-width: max-content;
@@ -52,11 +53,28 @@ ol{
     }
 
 }
-/*
-p{
-    grid-column: 1;
-    grid-column-end: span col4-start;
-    grid-row-start: 2;
-    grid-row-end: span 2;
-}
-*/
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  a[target], a:link {
+    background-color: rgb(209, 38, 38);
+    color: rgb(255, 255, 255);
+  }
+  a:visited {
+    color: rgb(45, 253, 45);
+  }
+  section div {
+      border: 1px;
+    color: rgb(184, 0, 0);
+  }
+  section > ol >li{
+      color: rgb(185, 185, 185);
+  }
+  section + p{
+      color:rgb(92, 49, 49)
+  }
+  div~b{
+      color: beige;
+  }
+  .cc.cc-red { border-color: red; }
+
